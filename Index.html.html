@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ff8800;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #000000;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .profile {
+            text-align: center;
+            margin: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .profile h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .profile p {
+            font-size: 1em;
+            color: #000000;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: slideIn 2s ease-in-out;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+
+    <div class="profile">
+        <img src="Image/IMG_20211229_194137.jpg" alt="Fahad Alam">
+        <h2>Fahad Alam</h2>
+        <p>CEO & Founder</p>
+    </div>
+
+    <button onclick="window.location.href='file:///C:/Users/tk281/Desktop/peshtoon%20culture/Home1.html'">Visit My Web</button>
+</body>
+</html>
