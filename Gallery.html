@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: inline;
+           
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            animation: glow 1.5s infinite;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            align-items: center;
+            color: #ff0000;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+         body  {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .gallery-item img {
+            display: block;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .gallery-item .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        .gallery-item:hover .description {
+           opacity: 1;  
+        }
+    </style>
+    </head>
+<body>
+    <header>
+        <h1>Welcome to Peshtun Culture</h1>
+    </header>
+    <nav><b>
+        <a href="Home1.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Vdeo.html">Video</a>
+        <a href="About Us.html">About</a>
+        </nav></b>
+        <div class="content">
+            <h2>Gallery</h2>
+         
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Image/Cultural_dance_of_Waziristan.jpg" alt="Image 2">
+                <div class="description">Mehsud Pashtun tribesmen, doing traditional Attan dance, in Waziristan</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Image/0_DUjx_7QYy1Hnxufn.png" alt="Image 4">
+                <div class="description">Celebrating the Positive Aspects of Pukhtoon Culture: A Rich Mosaic of Traditions and Values</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Image/5e4b47eda15fc.jpg" alt="Painting of Pashtun women in traditional burka, Kabul, 18th century">
+                    <div class="description">Centuries-old tradition of Pashtun music makes a comeback</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Image/maxresdefault.jpg" alt="Image 4">
+                    <div class="description">Attan at Pashtun Cultural Day</div>
+                </div>
+            <div class="gallery-item">
+                <img src="Image/1_VWal8CAOjQ0NCP_EOjMWqQ.webp" alt="Image 4">
+                <div class="description">PAKISTAN : A LAND OF CULTURAL DIVERSITY</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Image/pashtun-dancing-girls-musicians-peshawar-4459393.jpg.webp" alt="Image 4">
+                <div class="description">Pashtun Dancing girls with musicians - Peshawar</div>
+            </div>
+            <div class="gallery-item">
+                    <img src="Image/Afghan_cuisine.jpg" alt="Image 3">
+                    <div class="description">Some of the popular Pashtun dishes, from left to right: 1. Mutton grilled kebab (seekh kabab); 2. Palao and salad; 3. Tandoori chicken; and 4. Mantu (dumplings). The Pashtun cuisine includes a blend of Central Asian, South Asian and Middle Eastern cuisines. Most Pashtun dishes are traditionally non-spicy.</div>
+                </div>
+                      <div class="gallery-item">
+                <img src="Image/IMG_20211229_194137.jpg" alt="Image 4">
+                <div class="description">CEO IN THIS WEBSITE</div>
+            </div>
+        </div>
+    </body>
+    </html>

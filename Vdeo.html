@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: inline;
+           
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            animation: glow 1.5s infinite;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            align-items: center;
+            color: #ff0000;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .gallery-item video {
+            display: block;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover video {
+            transform: scale(1.1);
+        }
+        .gallery-item .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        .gallery-item:hover .description {
+            opacity: 1;
+        }
+       </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Peshtun Culture</h1>
+    </header>
+    <nav><b>
+        <a href="Home1.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Vdeo.html">Video</a>
+        <a href="About Us.html">About</a>
+       </nav></b>
+          <div class="gallery">
+        <div class="gallery-item">
+            <video src="Video/Pashtun Culture - Georaphy of Pakistan - پشتون ثقافت -.mp4" controls></video>
+            <div class="description">Pashtun Culture | Georaphy of Pakistan | پشتون ثقافت |</div>
+        </div>
+        <div class="gallery-item">
+            <video src="Video/Attan at Pashtun.mp4.mp4" controls></video>
+            <div class="description">Attan at Pashtun</div>
+        </div>
+        <div class="gallery-item">
+            <video src="Video/Best Girls Attan at Pashtun Cultural Day (Wa Grane Lailo).mp4" controls></video>
+            <div class="description"> Girls Attan at Pashtun Cultural Day</div>
+        </div>
+        <div class="gallery-item">
+            <video src="Video/Cuisine.mp4" controls></video>
+            <div class="description">Cuisine</div>
+        </div>
+            <div class="gallery-item">
+                <video src="Video/Exotic Pakistani Food - Pashtun Cuisine Shinwari!.mp4" controls></video>
+                <div class="description">Exotic Pakistani Food - Pashtun Cuisine Shinwari</div>
+        </div>
+        <div class="gallery-item">
+            <video src="Video/Artist from Quetta creates beautiful paintings on Pashtun culture - 27 Oct 2018 - 92NewsHD.mp4" controls ></video>
+            <div class="description">Artist from Quetta creates beautiful paintings on Pashtun culture</div>
+        </div>
+        <div class="gallery-item">
+            <video src="Video/what is Pashtunwali- the way of the Pashtuns.mp4" controls ></video>
+            <div class="description">what is Pashtunwali- the way of the Pashtuns</div>
+        </div>
+    </div>
+</body>
+</html>
